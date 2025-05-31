@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from torchvision.utils import save_image
 from data_processing import Datasets
 from gan_model import Generator, Discriminator
-from latent_diffusion_model import generate_latent_points
+from generate_latent_space import generate_latent_points
 from config import load_config
 
 config = load_config('config.yaml')
